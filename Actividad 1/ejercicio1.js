@@ -1,9 +1,8 @@
 //El usuario escribe un numero y despues este se multiplica por 2
-var numeroUsuario = prompt("Escribe un número: ")
-var numeroMul = 2
-var multiplicacion = numeroUsuario*numeroMul
+var numeroUsuario = Number(prompt("Escribe un número: "))
+var multiplicacion = numeroUsuario*2
 //Para mostar con alert
-alert("La suma es: "+ multiplicacion)
+alert("La multiplicación es: "+ multiplicacion)
 //Para mostrar en la consola
-console.log("La suma es: ", multiplicacion )
+console.log("La multiplicación es: ", multiplicacion )
 
