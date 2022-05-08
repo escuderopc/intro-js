@@ -5,7 +5,7 @@ let num = Number(prompt("Ingresa un numero"))
 let cont = 0
 let mulNumbers = num
 
-while(mulNumbers/5){
+while(mulNumbers/5 && mulNumbers>=5){
     console.log(`El numero ${mulNumbers} es multiplo de 5`)
     mulNumbers-=5
     cont++
