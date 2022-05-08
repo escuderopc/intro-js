@@ -1,15 +1,13 @@
-/*var num = Number(prompt("Ingresa un numero"))
-var cont = 1
-var listNumbers 
-while(num>1) {
-    if(num %5 == 0){
-        listNumbers += num
-        cont++
-    }else{
-        alert("El valor ingresado no es multiplo de 5")
-    }
+//Usando el ciclo while, pedir un numero al usuario y mostrar los multiplos de 5, 
+//desde el 1 hasta el valor ingresado por el usuario.
 
-}console.log("El numero "+num+" tiene "+cont+" multiplos de 5: \n")*/
+let num = Number(prompt("Ingresa un numero"))
+let cont = 0
+let mulNumbers = num
 
-var num = Number(prompt("Ingresa un numero"))
-var cont = 1
+while(mulNumbers/5){
+    console.log(`El numero ${mulNumbers} es multiplo de 5`)
+    mulNumbers-=5
+    cont++
+
+}console.log(`El numero ${num} tiene ${cont} multiplos de 5`)
